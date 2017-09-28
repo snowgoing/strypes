@@ -1,0 +1,49 @@
+@import "./base/meyersReset.css";
+@import "./base/keyframes.css";
+@import "./components/NumberTimeUnit.css";
+@import "./components/SocialMediaBar.css";
+@import "./components/CountdownBox.css";
+@import "./components/LogoAndTagline.css";
+
+#container {
+  display: flex;
+  background: url(./../images/sky-bg.jpg);
+  background-size: 100vw 100vh;
+  background-repeat: no-repeat;
+}
+
+.orange, .white, .pearl {
+  width: 33.3vw;
+  height: 100vh;
+}
+
+.orange {
+  background: linear-gradient(to bottom, rgba(235,148,26,1) 0%, rgba(255,166,0,1) 31%, rgba(255,166,0,1) 100%);
+  animation-name: from-top;
+  animation-duration: 2s;
+}
+
+.white {
+  animation-name: from-top-white;
+  animation-duration: 2s;
+  animation-delay: 1s;
+/*   animation-timing-function: linear; */
+  animation-fill-mode: forwards;
+/*   animation-iteration-count: 1; */
+}
+
+.pearl {
+  background: linear-gradient(to bottom, rgba(192,171,140,1) 0%, rgba(232,223,206,1) 62%, rgba(232,223,206,1) 100%);
+  animation-name: from-bottom;
+  animation-duration: 2s;
+}
+
+.tee {
+  position: absolute;
+  max-height: 100vh;
+  top: 0;
+  right: 0;
+  opacity: .3;
+  animation-name: tee-fade-in;
+  animation-duration: 6s;
+}

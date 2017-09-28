@@ -1,0 +1,25 @@
+.number-time-unit {
+  display: inline-block;
+  text-align: center;
+  padding-right: 1vw;
+  font-family: futura-condensedextraBold, futura;
+}
+
+.countdown-numbers {
+  color: #fff;
+  font-size: 2.6vw;
+  text-shadow: 1px 1px #232323;
+  margin-bottom: 10px;
+}
+
+.time-unit {
+  font-size: .7vw;
+  text-shadow: 1px 1px #232323;
+  color: #fff;
+  font-weight: 200;
+}
+
+.spanColor {
+  color: #3B4990;
+  text-shadow: 1px 1px #888;
+}

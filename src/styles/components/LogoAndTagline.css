@@ -1,0 +1,24 @@
+.logo-tagline {
+  position: fixed;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -30%);
+}
+
+.logo {
+  animation-name: appear;
+  animation-duration: 6s;
+  width: 40vw;
+  height: auto;
+}
+
+.tag-line {
+  padding-left: 20vw;
+  animation-name: fadeInDown;
+  animation-duration: 6s;
+  animation-fill-mode: forwards;
+  font-family: futura;
+  font-size: 1.4vw;
+  text-shadow: 0px 2px 4px #00;
+  color: #9b9b9b;
+}

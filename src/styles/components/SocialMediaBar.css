@@ -1,0 +1,13 @@
+.social-media-bar {
+  position: absolute;
+  bottom: 8%;
+  left: 80%;
+  /*transform: translate(-85%, -8%);*/
+}
+
+.social-media-bar > * {
+  margin: 0 10px;
+  animation-name: icons-fade-in;
+  animation-duration: 6s;
+  animation-fill-mode: forwards;
+}
