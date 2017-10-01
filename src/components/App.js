@@ -9,10 +9,10 @@ class App extends Component {
   constructor(props){
     super(props);
     this.state = {
-      days: 0,
-      hours: 0,
-      minutes: 0,
-      seconds: 0
+      days: 14,
+      hours: 12,
+      minutes: 43,
+      seconds: 36
     }
   }
   countdown() {
@@ -30,7 +30,7 @@ class App extends Component {
       })
     }, 1000);
   }
-  componentWillMount() {
+  componentDidMount() {
     this.countdown();
   }
   render() {
