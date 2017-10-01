@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import LogoAndTagline from './LogoAndTagline';
-import SocialMediaBar from './SocialMediaBar';
+// import SocialMediaBar from './SocialMediaBar';
 import CountdownBox from './CountdownBox';
 import tee from './../images/tee-with-strypes.png';
 import './../styles/App.css';
@@ -43,7 +43,7 @@ class App extends Component {
         <div className='white'></div>
         <div className='pearl'></div>
         <img src={tee} className='tee' alt="t-shirt" />
-        <SocialMediaBar />
+        {/* <SocialMediaBar /> */}
       </div>
     );
   }
