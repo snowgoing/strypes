@@ -1,8 +1,12 @@
 .social-media-bar {
   position: absolute;
   bottom: 8%;
-  left: 80%;
-  /*transform: translate(-85%, -8%);*/
+  left: 88%;
+  height: 10vh;
+  min-width: 20vw;
+  white-space: nowrap;
+  /*border: 2px solid black;*/
+  transform: translate(-88%, -8%);
 }
 
 .social-media-bar > * {
