@@ -12,7 +12,7 @@ export default class CountdownBox extends Component {
           <NumberTimeUnit number={days} timeUnit={'DAYS'} />
           <NumberTimeUnit number={hours} timeUnit={'HOURS'} />
           <NumberTimeUnit number={minutes} timeUnit={'MINUTES'} />
-          <NumberTimeUnit number={seconds} timeUnit={'SECONDS'} spanColor={'spanColor'}/>
+          <NumberTimeUnit number={seconds} timeUnit={'SECONDS'} spanColor={'span-color'}/>
         </div>
       </div>
     )

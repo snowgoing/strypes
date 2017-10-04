@@ -1,9 +1,70 @@
 @import "./base/meyersReset.css";
 @import "./base/keyframes.css";
+/*@import "./base/mediaQueries.css";*/
 @import "./components/NumberTimeUnit.css";
 @import "./components/SocialMediaBar.css";
 @import "./components/CountdownBox.css";
 @import "./components/LogoAndTagline.css";
+
+@media only screen and (max-width: 600px) {
+    .countdown-box {
+      width: 100vw;
+      min-height: 20vh;
+      bottom: 0;
+      box-sizing: border-box;
+      text-align: center;
+      background: #343434;
+      padding: 0;
+      z-index: 1;
+      /*border: 2px solid green;*/
+    }
+    .tee {
+      display: none;
+    }
+    .social-media-bar {
+      position: fixed;
+      top: 10%;
+      left: 50%;
+      transform: translate(-50%, -10%);
+    }
+    .number-time-unit {
+      margin: 0 2vw 0 2vw;
+    }
+    .waiting-for {
+      color: #6677A7;
+      font-size: 3.5vw;
+      text-shadow: 1px 1px #000;
+      margin-top: 10px;
+    }
+    .day-title {
+      font-size: 26vw;
+      /*border: 3px solid red;*/
+      width: 100vw;
+    }
+    .counter {
+      justify-content: center;
+      margin-bottom: 10px;
+    }
+    .countdown-numbers {
+      font-size: 8vw;
+    }
+    .time-unit {
+      font-size: 2vw;
+    }
+    .logo {
+      width: 60vw;
+    }
+    .tag-line {
+      font-size: 2.7vw;
+      text-shadow: 1px 1px #000;
+      white-space: nowrap;
+    }
+    .span-color {
+      color: #6677A7;
+      text-shadow: 1px 1px #000;
+    }
+}
+
 
 #container {
   display: flex;
