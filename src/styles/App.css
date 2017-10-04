@@ -54,6 +54,12 @@
     .time-unit {
       font-size: 2vw;
     }
+    .logo-tagline {
+      position: fixed;
+      top: 35%;
+      left: 50%;
+      transform: translate(-50%, -35%);
+    }
     .logo {
       width: 60vw;
     }
