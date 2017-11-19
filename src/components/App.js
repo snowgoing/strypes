@@ -3,6 +3,7 @@ import LogoAndTagline from './LogoAndTagline';
 import SocialMediaBar from './SocialMediaBar';
 import CountdownBox from './CountdownBox';
 import tee from './../images/tee-with-strypes.png';
+// import particle from './../data/canvas';
 import './../styles/App.css';
 
 class App extends Component {
@@ -16,7 +17,7 @@ class App extends Component {
     }
   }
   countdown() {
-    const countdownDate = new Date('Oct 16, 2017 00:00:00').getTime();
+    const countdownDate = new Date('Jan 16, 2018 00:00:00').getTime();
     setInterval(() => {
       const now = new Date().getTime();
       const distance = countdownDate - now;
@@ -37,6 +38,7 @@ class App extends Component {
     const {days, hours, minutes, seconds} = this.state;
     return (
       <div id='container'>
+        {/*<canvas id="canvas"></canvas>*/}
         <LogoAndTagline />
         <CountdownBox days={days} hours={hours} seconds={seconds} minutes={minutes} />
         <div className='orange'></div>
